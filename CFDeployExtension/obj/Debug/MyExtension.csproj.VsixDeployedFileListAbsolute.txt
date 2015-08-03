@@ -1,0 +1,7 @@
+C:\Users\Dan Higham\AppData\Local\Microsoft\VisualStudio\14.0Exp\Extensions\Company\MyExtension\1.0\\MyExtension.dll
+C:\Users\Dan Higham\AppData\Local\Microsoft\VisualStudio\14.0Exp\Extensions\Company\MyExtension\1.0\\MyExtension.Lib.dll
+C:\Users\Dan Higham\AppData\Local\Microsoft\VisualStudio\14.0Exp\Extensions\Company\MyExtension\1.0\\MyExtension.pkgdef
+C:\Users\Dan Higham\AppData\Local\Microsoft\VisualStudio\14.0Exp\Extensions\Company\MyExtension\1.0\\extension.vsixmanifest
+C:\Users\Dan Higham\AppData\Local\Microsoft\VisualStudio\14.0Exp\Extensions\Company\MyExtension\1.0\ItemTemplates\My Extension\CSharp\\1033\MyExtension.IniParserTemplate.zip
+C:\Users\Dan Higham\AppData\Local\Microsoft\VisualStudio\14.0Exp\Extensions\Company\MyExtension\1.0\\MyExtension.pdb
+C:\Users\Dan Higham\AppData\Local\Microsoft\VisualStudio\14.0Exp\Extensions\Company\MyExtension\1.0\\MyExtension.Lib.pdb

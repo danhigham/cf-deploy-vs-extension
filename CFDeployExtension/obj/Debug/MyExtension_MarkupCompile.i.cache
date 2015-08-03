@@ -1,0 +1,20 @@
+﻿MyExtension
+
+
+library
+C#
+.cs
+C:\Users\Dan Higham\workspace\CFDeployExtension\CFDeployExtension\obj\Debug\
+Company.MyExtension
+none
+false
+DEBUG;TRACE
+
+5-1907154365
+1-1271517523
+221932380407
+31-1473236208
+Dialogs\DeployDialog.xaml;Dialogs\DeployWizardSteps\AppDetails.xaml;Dialogs\DeployWizardSteps\Credentials.xaml;Dialogs\DeployWizardSteps\OrgAndSpace.xaml;Dialogs\DeployWizardSteps\Services.xaml;
+
+True
+

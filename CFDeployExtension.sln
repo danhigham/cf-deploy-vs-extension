@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CFDeployExtension", "CFDeployExtension\CFDeployExtension.csproj", "{77705ABA-DB69-4F39-A8A1-2E4367F48B3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DialogTest", "DialogTest\DialogTest.csproj", "{88786EFC-7FE2-438B-8ED0-A78E50430162}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77705ABA-DB69-4F39-A8A1-2E4367F48B3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77705ABA-DB69-4F39-A8A1-2E4367F48B3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77705ABA-DB69-4F39-A8A1-2E4367F48B3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77705ABA-DB69-4F39-A8A1-2E4367F48B3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88786EFC-7FE2-438B-8ED0-A78E50430162}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88786EFC-7FE2-438B-8ED0-A78E50430162}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88786EFC-7FE2-438B-8ED0-A78E50430162}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88786EFC-7FE2-438B-8ED0-A78E50430162}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CommandTable xmlns="http://schemas.microsoft.com/VisualStudio/2005-10-18/CommandTable" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <!--This is the file that defines the IDs for all the commands exposed by VisualStudio. -->
+  <Extern href="stdidcmd.h"/>
+
+  <!--This header contains the command ids for the menus provided by the shell. -->
+  <Extern href="vsshlids.h"/>
+
+  <Commands package="guidMyExtensionPkg">
+    <Menus>
+      <!-- Define a new menu below the mainItemMenuGroup-->
+      <Menu guid="guidMyExtensionCmdSet" id="myExtensionSubMenu" priority="0x0000" type="Menu">
+        <Parent guid="guidMyExtensionCmdSet" id="mainItemMenuGroup"/>
+        <Strings>
+          <ButtonText>Cloud Foundry</ButtonText>
+        </Strings>
+      </Menu>
+    </Menus>
+
+    <Groups>
+      
+      <!-- Define the mainItemMenuGroup, child of the item menu -->
+      <Group guid="guidMyExtensionCmdSet" id="mainItemMenuGroup" priority="0x0600">
+        <Parent guid="guidSHLMainMenu" id="IDM_VS_CTXT_PROJNODE"/>
+      </Group>
+      <!-- Define the myExtensionSubMenuGroup, child of the myExtensionSubMenu -->
+      <Group guid="guidMyExtensionCmdSet" id="myExtensionSubMenuGroup" priority="0x0600">
+        <Parent guid="guidMyExtensionCmdSet" id="myExtensionSubMenu"/>
+      </Group>
+    </Groups>
+
+    <Buttons>
+      <!-- Define the button cmdidGenerateIni inside the myExtensionSubMenuGroup-->
+      <Button guid="guidMyExtensionCmdSet" id="cmdidGenerateIni" priority="0x0100" type="Button">
+        <Parent guid="guidMyExtensionCmdSet" id="myExtensionSubMenuGroup" />
+        <Strings>
+          <ButtonText>Deploy</ButtonText>
+        </Strings>
+      </Button>
+    </Buttons>
+
+    <!--<Bitmaps>
+		</Bitmaps>-->
+  </Commands>
+
+  <Symbols>
+    <!-- This is the package guid. -->
+    <GuidSymbol name="guidMyExtensionPkg" value="{14796bd1-9ea5-4eff-b4c0-bee11efbb734}" />
+
+    <!-- This is the guid used to group the menu commands together -->
+    <GuidSymbol name="guidMyExtensionCmdSet" value="{6abb0b81-9bb9-450d-849d-554a6501b931}">
+
+      <IDSymbol name="mainItemMenuGroup" value="0x1020" />
+      <IDSymbol name="myExtensionSubMenu" value="0x2020"/>
+      <IDSymbol name="myExtensionSubMenuGroup" value="0x1021" />
+
+      <IDSymbol name="cmdidGenerateIni" value="0x0100" />
+    </GuidSymbol>
+
+  </Symbols>
+
+</CommandTable>
